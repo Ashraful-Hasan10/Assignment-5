@@ -10,7 +10,7 @@ body {
   
 #nav-all-list>li>a {
     font-weight: 500;
-    color: rgb(58, 58, 58);
+    color: rgb(70, 69, 69);
     padding: 0 1.5rem;
 }
 
@@ -45,5 +45,5 @@ img{
     list-style: none;
 }
 .meal-details ul li i{
-    color: rgb(250, 80, 50);
+    color: rgb(247, 70, 39);
 }
