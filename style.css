@@ -1,0 +1,49 @@
+body {
+    background-color: #EDD263;
+  }
+  
+#custom-logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #b31a4db6;
+}
+  
+#nav-all-list>li>a {
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+    padding: 0 1.5rem;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#error-search{
+    display: none;
+    color: red;
+    text-align: center;
+}
+#all-food-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.meal-item{
+    margin: 15px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.meal-item h5{
+    padding: 10px 0;
+}
+.meal-details img{
+    border-radius: 10px;
+    height: 400px;
+    width: auto;
+}
+.meal-details ul li{
+    list-style: none;
+}
+.meal-details ul li i{
+    color: rgb(250, 80, 50);
+}
